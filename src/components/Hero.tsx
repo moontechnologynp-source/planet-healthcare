@@ -121,41 +121,6 @@ export default function Hero() {
                 {/* Floating indicators */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/20 via-transparent to-transparent pointer-events-none" />
               </div>
-
-              {/* Float Glassmorphic Widget 1 */}
-              <motion.div
-                initial={{ opacity: 0, x: -30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="absolute -left-6 bottom-12 hidden sm:flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-xl shadow-slate-100"
-              >
-                <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-blue-100 text-blue-600">
-                  <Activity className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">Facility Status</p>
-                  <p className="text-xs font-bold text-slate-800 mt-1">100% Calibrated</p>
-                </div>
-              </motion.div>
-
-              {/* Float Glassmorphic Widget 2 */}
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.5 }}
-                className="absolute -right-6 -bottom-4 hidden sm:flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-xl shadow-slate-100"
-              >
-                <div className="flex -space-x-1.5">
-                  <div className="w-7 h-7 rounded-full border border-white bg-slate-100 flex items-center justify-center text-[10px] font-bold text-slate-700">MD</div>
-                  <div className="w-7 h-7 rounded-full border border-white bg-blue-50 flex items-center justify-center text-[10px] font-bold text-blue-700 font-sans">PHD</div>
-                  <div className="w-7 h-7 rounded-full border border-white bg-teal-50 flex items-center justify-center text-[10px] font-bold text-teal-700">DR</div>
-                </div>
-                <div>
-                  <p className="text-[9px] text-slate-400 font-bold uppercase tracking-wider">Medical Board</p>
-                  <p className="text-xs font-bold text-slate-700">200+ Advisors</p>
-                </div>
-              </motion.div>
-
             </motion.div>
           </div>
 

@@ -44,7 +44,7 @@ export default function AboutUs() {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="mb-4 flex items-center justify-center gap-2 text-teal-600 font-bold uppercase text-[11px] tracking-[0.25em]">
             <span className="w-8 h-[1px] bg-teal-500"></span>
-            Overview & Corporate Story
+            About Us
             <span className="w-8 h-[1px] bg-teal-500"></span>
           </div>
           <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -65,10 +65,7 @@ export default function AboutUs() {
                 className="w-full h-[280px] sm:h-[350px] object-cover rounded-lg"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 bg-white/95 rounded-full text-[10px] font-bold text-slate-800 tracking-widest uppercase shadow-sm border border-slate-100">
-                <span className="w-1.5 h-1.5 rounded-full bg-blue-600 animate-pulse" />
-                <span>Patient-First Framework</span>
-              </div>
+              
             </div>
 
             <div className="p-6 bg-slate-50 rounded-xl border border-slate-200 space-y-3">
